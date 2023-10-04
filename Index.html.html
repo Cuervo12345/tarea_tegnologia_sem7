@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorando el Realismo Mágico</title>
+    <style>
+        /* Estilos generales */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #3E3E3E;
+            color: #FFD700;
+        }
+
+        /* Estilos para el header */
+        header {
+            background-color: #3E3E3E;
+            color: #FFD700;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Estilos para el menú de navegación */
+        nav {
+            background-color: #3E3E3E;
+            overflow: hidden;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+            margin: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #FFD700;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Estilos para el contenido */
+        .contenido {
+            padding-top: 20px;
+            margin: 0 auto;
+            max-width: 1200px;
+            overflow: hidden;
+        }
+
+        /* Estilos para los títulos */
+        h1, h2 {
+            text-align: center;
+        }
+
+        /* Estilos para el artículo destacado */
+        .destacado {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        /* Estilos para la tabla */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #333;
+        }
+
+        th {
+            background-color: #FFA500;
+            color: #3E3E3E;
+        }
+
+        /* Estilos para los nombres de autor en la tabla */
+        table a {
+            color: #FFD700;
+        }
+
+        /* Estilos para el aside */
+        aside {
+            float: left;
+            width: 30%;
+            margin-top: 20px;
+        }
+
+        aside h3 {
+            text-align: center;
+        }
+
+        aside ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        /* Estilos para el footer */
+        footer {
+            background-color: #3E3E3E;
+            color: #FFD700;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        /* Estilos para los nombres de autor bajo "Biografías de Autores" */
+        aside ul li a {
+            color: #FFD700;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explorando el Realismo Mágico</h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMbthfB5fExvtlV6YUJ3YHBepA3OvOcJkFnw&usqp=CAU" alt="Imagen Realismo Mágico">
+    </header>
+    
+    <nav>
+        <!-- Menú de navegación -->
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="Introduccion.html">Introducción</a></li>
+            <li><a href="Autores_destacados.html">Autores Destacados</a></li>
+            <li><a href="Contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    
+    <div class="contenido"> <!-- Contenedor para el contenido -->
+        <section>
+            <article>
+                <h2 class="destacado">Introducción al Realismo Mágico</h2>
+                <p>En esta sección, conocerás los fundamentos del Realismo Mágico...</p>
+            </article>
+            
+            <article>
+                <h2>Gabriel García Márquez y su Contribución al Género</h2>
+                <p class="destacado">Explora la vida y obra del icónico autor colombiano...</p>
+            </article>
+
+            <article>
+                <h2>Otros Autores Destacados</h2>
+                <table>
+                    <tr>
+                        <th>Nombre del Autor</th>
+                        <th>País de Origen</th>
+                        <th>Obras Destacadas</th>
+                        <th>Fecha de Nacimiento</th>
+                        <th>Biografía</th>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Isabel Allende</a></td>
+                        <td>Chile</td>
+                        <td>La casa de los espíritus, Eva Luna</td>
+                        <td>2 de agosto de 1942</td>
+                        <td>Isabel Allende es una escritora chilena famosa por su obra "La casa de los espíritus"...</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Julio Cortázar</a></td>
+                        <td>Argentina</td>
+                        <td>Rayuela, Bestiario</td>
+                        <td>26 de agosto de 1914</td>
+                        <td>Julio Cortázar fue un destacado escritor argentino conocido por su novela "Rayuela"...</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Laura Esquivel</a></td>
+                        <td>México</td>
+                        <td>Como agua para chocolate, La ley del amor</td>
+                        <td>30 de septiembre de 1950</td>
+                        <td>Laura Esquivel es una escritora mexicana reconocida por su novela "Como agua para chocolate"...</td>
+                    </tr>
+                </table>
+            </article>
+        </section>
+        
+        <aside>
+            <h3>Biografías de Autores</h3>
+            <ul>
+                <li><a href="https://es.wikipedia.org/wiki/Isabel_Allende">Isabel Allende</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Julio_Cortázar">Julio Cortázar</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Laura_Esquivel_Valdés">Laura Esquivel</a></li>
+            </ul>
+        </aside>
+    </div> <!-- Cierre del contenedor del contenido -->
+    
+    <footer>
+        <p id="footer-text">Derechos de autor © 2023 Dylan Castillo. Todos los derechos reservados.</p>
+        <p>Contacto: dylansamuelcastillovela@gmail.com</p>
+    </footer>
+</body>
+</html>
